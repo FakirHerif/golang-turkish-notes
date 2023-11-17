@@ -6,12 +6,12 @@ Go'da class terimi yerine structs kullanıyoruz.
 
 Geleneksel class uygulamalarına kıyasla basit bir şekildedir. Yani inheritance, constructors, generics yoktur. Bunun kod yazmayı kolaylaştırdığını ve çalıştırmayı verimli hale getirdiğini söyleyebiliriz. Yani, genellikle daha hızlı çalışır.
 
-Go'nun en büyük avantajlarından biri eşzamanlılık uygulamasıdır. Eşzamanlılık kısaca aynı anda birden fazla görevin yönetimidir. Büyük sistemler için anahtardır. Yani birçok parça çalışıyor, devam ediyor ama hepsi sırayla yürütülmüyor. Bir nevi paralellik diyebiliriz. 
+Go'nun en büyük avantajlarından biri eşzamanlılık uygulamasıdır. Eşzamanlılık kısaca aynı anda birden fazla görevin yönetimidir. Büyük sistemler için anahtardır. Yani birçok parça çalışıyor, devam ediyor ama hepsi sırayla yürütülmüyor. Bir nevi paralellik diyebiliriz. Ama eşzamanlılık her zaman performans iyileştirmesini garanti etmez.  Birden fazla görevin aynı anda yürütülmesine izin vererek performansı potansiyel olarak artırabilse de, etkinlik büyük ölçüde görevlerin doğası, donanım sınırlamaları, eşzamanlı işlemleri yönetme yükü, senkronizasyon gereksinimleri ve daha fazlası gibi çeşitli faktörlere bağlıdır.  Bazı durumlarda eşzamanlı görevleri yönetmenin getirdiği ek yük, düzgün şekilde uygulanmadığı takdirde performansı düşürebilir. Bu nedenle eşzamanlılık güçlü bir kavram olsa da tüm senaryolarda performansın artmasını garanti etmez.
 
 **Özetlemek Gerekirse:**
 
 - Kodlar hızlı çalışır
-- Garbage collection
+- Garbage collection (Artık kullanılmayan nesnelerin dağıtımının kaldırılması)
 - Basit nesneler
 - Yerleşik eşzamanlılık
 - Machine language (Doğrudan işlemci üzerinde çalışır)
