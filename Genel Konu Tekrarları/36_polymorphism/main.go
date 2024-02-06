@@ -1,4 +1,4 @@
-// Polymorphism = çok biçimlilik. Bir işlemin farklı şekillerde yapılması olarak düşünebiliriz.
+// Polymorphism = çok biçimlilik.  Bir işlemin farklı şekillerde yapılması olarak düşünebiliriz.
 
 package main
 
